@@ -67,7 +67,7 @@ logic   Cnt_CONDITION_Outp_s;
 logic   Res_CONDITION_Outp_s;
 logic   ACTVAL_en_GATE0_Outp_s;
 
-assign ResEnable_ROR_Outp_s = | ResIM;
+assign ResEnable_ROR_Outp_s = &ResIM;
 
 assign ACTVAL_is_zero_Outp_s = ACTVAL == { 31'b0 , 1'b0 } ? 1'b1 : 1'b0;
 

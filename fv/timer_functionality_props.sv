@@ -39,6 +39,22 @@ module timer_usf_props(
 //---------------------------------------------------------------------------------------------
 
     //
+    property Timer_CH0_no_reset_2_maxval_intermediate_stateintermediate_2_Timer_CH0_no_reset_2_maxval2Timer_CH0_no_reset_2_maxval;
+    @(posedge tc_soc_timer.HCLK_i)
+    disable iff(!tc_soc_timer.HRESET_n_i)
+        (( ( 1 )  ##2
+	 ( ( ( (tc_soc_timer.comp_Reg_IF.comp_Top_CSC.TimerCSC_BF_bf_TimEn_CH0_out == 1) && 
+	 (tc_soc_timer.comp_Reg_IF.comp_Top_CSC.TimerCSC_BF_bf_ACTVAL_CH0_flipflop_out == 0) ) &&
+	 (tc_soc_timer.comp_timer.comp_TimerChannel_0.comp_ACTVALCU.ExtRes_sync == 0) &&
+	 (tc_soc_timer.comp_Reg_IF.comp_Top_CSC.default_interface_addr != 4) &&
+	 (tc_soc_timer.comp_Reg_IF.comp_Top_CSC.TimerCSC_BF_bf_ResIM_CH0_out != 7) ) )  ) 
+	|->
+	  ##1
+	 (tc_soc_timer.comp_Reg_IF.comp_Top_CSC.TimerCSC_BF_bf_ACTVAL_CH0_flipflop_out ==  $past(tc_soc_timer.comp_Reg_IF.comp_Top_CSC.TimerCSC_BF_bf_ACTVAL_CH0_flipflop_out)) );
+    endproperty
+	//---------------------------------------------------------------------------------------------
+
+    //
     property Timer_CH0_reset_2_maxval_1_intermediate_stateintermediate_2_Timer_CH0_reset_2_maxval_12Timer_CH0_reset_2_maxval_1;
     @(posedge tc_soc_timer.HCLK_i)
     disable iff(!tc_soc_timer.HRESET_n_i)
@@ -2855,6 +2871,23 @@ module timer_usf_props(
 	  ##1
 	 (tc_soc_timer.comp_Reg_IF.comp_Top_CSC.TimerCSC_BF_bf_ACTVAL_CH1_flipflop_out ==  $past(tc_soc_timer.comp_Reg_IF.comp_Top_CSC.TimerCSC_BF_bf_MAXVAL_CH1_flipflop_out)) );
     endproperty
+//---------------------------------------------------------------------------------------------
+
+    //
+    property Timer_CH1_no_reset_2_maxval_intermediate_stateintermediate_2_Timer_CH1_no_reset_2_maxval2Timer_CH1_no_reset_2_maxval;
+    @(posedge tc_soc_timer.HCLK_i)
+    disable iff(!tc_soc_timer.HRESET_n_i)
+        (( ( 1 )  ##2
+	 ( ( ( (tc_soc_timer.comp_Reg_IF.comp_Top_CSC.TimerCSC_BF_bf_TimEn_CH1_out == 1) && 
+	 (tc_soc_timer.comp_Reg_IF.comp_Top_CSC.TimerCSC_BF_bf_ACTVAL_CH1_flipflop_out == 0) ) && 
+	 (tc_soc_timer.comp_timer.comp_TimerChannel_1.comp_ACTVALCU.ExtRes_sync == 0) &&
+	 (tc_soc_timer.comp_Reg_IF.comp_Top_CSC.default_interface_addr != 24) &&
+	 (tc_soc_timer.comp_Reg_IF.comp_Top_CSC.TimerCSC_BF_bf_ResIM_CH1_out != 7) ) )  ) 
+	|->
+	  ##1
+	 (tc_soc_timer.comp_Reg_IF.comp_Top_CSC.TimerCSC_BF_bf_ACTVAL_CH1_flipflop_out ==  $past(tc_soc_timer.comp_Reg_IF.comp_Top_CSC.TimerCSC_BF_bf_ACTVAL_CH1_flipflop_out)) );
+    endproperty
+
 //---------------------------------------------------------------------------------------------
 
     //
@@ -8784,6 +8817,20 @@ module timer_usf_props(
 //---------------------------------------------------------------------------------------------
 
     //
+    property idle_2_Timer_CH0_overflow_int_set2Timer_CH0_overflow_int_not_set;
+    @(posedge tc_soc_timer.HCLK_i)
+    disable iff(!tc_soc_timer.HRESET_n_i)
+        (( ( ( ( (tc_soc_timer.TIM0_OvfIntRes == 0) && 
+	 (tc_soc_timer.comp_Reg_IF.comp_Top_CSC.TimerCSC_BF_bf_OvfIntEn_CH0_out == 1) ) && 
+	 (tc_soc_timer.comp_Reg_IF.comp_Top_CSC.TimerCSC_BF_bf_ACTVAL_CH0_flipflop_out == 0) ) && 
+	 (tc_soc_timer.comp_Reg_IF.comp_Top_CSC.TimerCSC_BF_bf_ResIM_CH0_out != 7) ) ) 
+	|->
+	  ##1
+	 (tc_soc_timer.TIM0_OvfInt == 0) );
+    endproperty	
+//---------------------------------------------------------------------------------------------
+
+    //
     property Timer_CH1_overflow_int_reset_intermediate_stateintermediate_2_Timer_CH1_overflow_int_reset2Timer_CH1_overflow_int_reset;
     @(posedge tc_soc_timer.HCLK_i)
     disable iff(!tc_soc_timer.HRESET_n_i)
@@ -8807,11 +8854,27 @@ module timer_usf_props(
 	  ##1
 	 (tc_soc_timer.TIM1_OvfInt == 1) );
     endproperty
+
+//---------------------------------------------------------------------------------------------
+
+    //
+    property idle_2_Timer_CH1_overflow_int_set2Timer_CH1_overflow_int_not_set;
+    @(posedge tc_soc_timer.HCLK_i)
+    disable iff(!tc_soc_timer.HRESET_n_i)
+        (( ( ( ( (tc_soc_timer.TIM1_OvfIntRes == 0) && 
+	 (tc_soc_timer.comp_Reg_IF.comp_Top_CSC.TimerCSC_BF_bf_OvfIntEn_CH1_out == 1) ) && 
+	 (tc_soc_timer.comp_Reg_IF.comp_Top_CSC.TimerCSC_BF_bf_ACTVAL_CH1_flipflop_out == 0) ) && 
+	 (tc_soc_timer.comp_Reg_IF.comp_Top_CSC.TimerCSC_BF_bf_ResIM_CH1_out != 7) ) ) 
+	|->
+	  ##1
+	 (tc_soc_timer.TIM1_OvfInt == 0) );
+    endproperty
 //---------------------------------------------------------------------------------------------
 
     
     Timer_CH0_dont_count_intermediate_stateintermediate_2_Timer_CH0_dont_count2Timer_CH0_dont_count_assert: assert property(Timer_CH0_dont_count_intermediate_stateintermediate_2_Timer_CH0_dont_count2Timer_CH0_dont_count);
     Timer_CH0_reset_2_maxval_intermediate_stateintermediate_2_Timer_CH0_reset_2_maxval2Timer_CH0_reset_2_maxval_assert: assert property(Timer_CH0_reset_2_maxval_intermediate_stateintermediate_2_Timer_CH0_reset_2_maxval2Timer_CH0_reset_2_maxval);
+	Timer_CH0_no_reset_2_maxval_intermediate_stateintermediate_2_Timer_CH0_no_reset_2_maxval2Timer_CH0_no_reset_2_maxval_assert: assert property(Timer_CH0_no_reset_2_maxval_intermediate_stateintermediate_2_Timer_CH0_no_reset_2_maxval2Timer_CH0_no_reset_2_maxval);
     Timer_CH0_reset_2_maxval_1_intermediate_stateintermediate_2_Timer_CH0_reset_2_maxval_12Timer_CH0_reset_2_maxval_1_assert: assert property(Timer_CH0_reset_2_maxval_1_intermediate_stateintermediate_2_Timer_CH0_reset_2_maxval_12Timer_CH0_reset_2_maxval_1);
     Timer_CH0_dont_count_1_intermediate_stateintermediate_2_Timer_CH0_dont_count_12Timer_CH0_dont_count_1_assert: assert property(Timer_CH0_dont_count_1_intermediate_stateintermediate_2_Timer_CH0_dont_count_12Timer_CH0_dont_count_1);
     Timer_CH0_reset_2_maxval_2_intermediate_stateintermediate_2_Timer_CH0_reset_2_maxval_22Timer_CH0_reset_2_maxval_2_assert: assert property(Timer_CH0_reset_2_maxval_2_intermediate_stateintermediate_2_Timer_CH0_reset_2_maxval_22Timer_CH0_reset_2_maxval_2);
@@ -8934,7 +8997,8 @@ module timer_usf_props(
     Timer_CH0_down_count_47_intermediate_stateintermediate_2_Timer_CH0_down_count_472Timer_CH0_down_count_47_assert: assert property(Timer_CH0_down_count_47_intermediate_stateintermediate_2_Timer_CH0_down_count_472Timer_CH0_down_count_47);
     Timer_CH0_dont_count_63_intermediate_stateintermediate_2_Timer_CH0_dont_count_632Timer_CH0_dont_count_63_assert: assert property(Timer_CH0_dont_count_63_intermediate_stateintermediate_2_Timer_CH0_dont_count_632Timer_CH0_dont_count_63);
     Timer_CH1_dont_count_intermediate_stateintermediate_2_Timer_CH1_dont_count2Timer_CH1_dont_count_assert: assert property(Timer_CH1_dont_count_intermediate_stateintermediate_2_Timer_CH1_dont_count2Timer_CH1_dont_count);
-    Timer_CH1_reset_2_maxval_intermediate_stateintermediate_2_Timer_CH1_reset_2_maxval2Timer_CH1_reset_2_maxval_assert: assert property(Timer_CH1_reset_2_maxval_intermediate_stateintermediate_2_Timer_CH1_reset_2_maxval2Timer_CH1_reset_2_maxval);
+    Timer_CH1_no_reset_2_maxval_intermediate_stateintermediate_2_Timer_CH1_no_reset_2_maxval2Timer_CH1_no_reset_2_maxval_assert: assert property(Timer_CH1_no_reset_2_maxval_intermediate_stateintermediate_2_Timer_CH1_no_reset_2_maxval2Timer_CH1_no_reset_2_maxval);
+	Timer_CH1_reset_2_maxval_intermediate_stateintermediate_2_Timer_CH1_reset_2_maxval2Timer_CH1_reset_2_maxval_assert: assert property(Timer_CH1_reset_2_maxval_intermediate_stateintermediate_2_Timer_CH1_reset_2_maxval2Timer_CH1_reset_2_maxval);
     Timer_CH1_reset_2_maxval_1_intermediate_stateintermediate_2_Timer_CH1_reset_2_maxval_12Timer_CH1_reset_2_maxval_1_assert: assert property(Timer_CH1_reset_2_maxval_1_intermediate_stateintermediate_2_Timer_CH1_reset_2_maxval_12Timer_CH1_reset_2_maxval_1);
     Timer_CH1_dont_count_1_intermediate_stateintermediate_2_Timer_CH1_dont_count_12Timer_CH1_dont_count_1_assert: assert property(Timer_CH1_dont_count_1_intermediate_stateintermediate_2_Timer_CH1_dont_count_12Timer_CH1_dont_count_1);
     Timer_CH1_reset_2_maxval_2_intermediate_stateintermediate_2_Timer_CH1_reset_2_maxval_22Timer_CH1_reset_2_maxval_2_assert: assert property(Timer_CH1_reset_2_maxval_2_intermediate_stateintermediate_2_Timer_CH1_reset_2_maxval_22Timer_CH1_reset_2_maxval_2);
@@ -9288,9 +9352,11 @@ module timer_usf_props(
     idle_2_Timer_CH1_compare_CCM6_CCU52Timer_CH1_compare_CCM6_CCU5_assert: assert property(idle_2_Timer_CH1_compare_CCM6_CCU52Timer_CH1_compare_CCM6_CCU5);
     idle_2_Timer_CH1_disabled_compare_CCM7_CCU52Timer_CH1_disabled_compare_CCM7_CCU5_assert: assert property(idle_2_Timer_CH1_disabled_compare_CCM7_CCU52Timer_CH1_disabled_compare_CCM7_CCU5);
     Timer_CH0_overflow_int_reset_intermediate_stateintermediate_2_Timer_CH0_overflow_int_reset2Timer_CH0_overflow_int_reset_assert: assert property(Timer_CH0_overflow_int_reset_intermediate_stateintermediate_2_Timer_CH0_overflow_int_reset2Timer_CH0_overflow_int_reset);
-    idle_2_Timer_CH0_overflow_int_set2Timer_CH0_overflow_int_set_assert: assert property(idle_2_Timer_CH0_overflow_int_set2Timer_CH0_overflow_int_set);
+    idle_2_Timer_CH0q_overflow_int_set2Timer_CH0_overflow_int_set_assert: assert property(idle_2_Timer_CH0_overflow_int_set2Timer_CH0_overflow_int_set);
+	idle_2_Timer_CH0_overflow_int_set2Timer_CH0_overflow_int_not_set_assert: assert property(idle_2_Timer_CH0_overflow_int_set2Timer_CH0_overflow_int_not_set);
     Timer_CH1_overflow_int_reset_intermediate_stateintermediate_2_Timer_CH1_overflow_int_reset2Timer_CH1_overflow_int_reset_assert: assert property(Timer_CH1_overflow_int_reset_intermediate_stateintermediate_2_Timer_CH1_overflow_int_reset2Timer_CH1_overflow_int_reset);
     idle_2_Timer_CH1_overflow_int_set2Timer_CH1_overflow_int_set_assert: assert property(idle_2_Timer_CH1_overflow_int_set2Timer_CH1_overflow_int_set);
+	idle_2_Timer_CH1_overflow_int_set2Timer_CH1_overflow_int_not_set_assert: assert property(idle_2_Timer_CH1_overflow_int_set2Timer_CH1_overflow_int_not_set);
 
 endmodule
 
