@@ -1,0 +1,44 @@
+# A more detailed description of the manifest format `Bender.yml` can be found here:
+# https://github.com/pulp-platform/bender#manifest-format-benderyml
+
+package:
+  name: dual-channel-timer-ip
+  authors:
+    - "Ares Tahiraga <ares.tahiraga@infineon.com>"
+    - "Sebastian Prebeck <sebastian.prebeck@infineon.com>"
+    - "Robert Kunzelmann <robert.kunzelmann@infineon.com>"
+
+dependencies:
+
+sources:
+  # Source files grouped in levels. Files in level 0 have no dependencies on files in this
+  # package. Files in level 1 only depend on files in level 0, files in level 2 on files in
+  # levels 1 and 0, etc. Files within a level are ordered alphabetically.
+  # Level 0
+  - src/tc_soc_timer_Reg_IF_AHB_RAI_Bridge_bridge_fsm_FSM_Core.sv
+  - src/tc_soc_timer_Reg_IF_AHB_RAI_Bridge_bridge_sync.sv
+  - src/tc_soc_timer_Reg_IF_Top_CSC_Top_CSC_default_interface_Top_CSC_default_interface_AccessSizeCircuit.sv
+  - src/tc_soc_timer_Reg_IF_Top_CSC_Top_CSC_default_interface_Top_CSC_default_interface_ReadCircuit.sv
+  - src/tc_soc_timer_Reg_IF_Top_CSC_Top_CSC_default_interface_Top_CSC_default_interface_WriteCircuit.sv
+  - src/tc_soc_timer_cACTVALControlUnit.sv
+  - src/tc_soc_timer_cBitSynchronizer.sv
+  - src/tc_soc_timer_cComparator.sv
+  - src/tc_soc_timer_cInterruptControlUnit.sv
+
+  # Level 1
+  - src/tc_soc_timer_Reg_IF_AHB_RAI_Bridge_bridge_fsm.sv
+  - src/tc_soc_timer_Reg_IF_Top_CSC_Top_CSC_default_interface.sv
+  - src/tc_soc_timer_cCCUnit.sv
+
+  # Level 2
+  - src/tc_soc_timer_Reg_IF_AHB_RAI_Bridge.sv
+  - src/tc_soc_timer_Reg_IF_Top_CSC.sv
+  - src/tc_soc_timer_timer_TimerChannel_0.sv
+  - src/tc_soc_timer_timer_TimerChannel_1.sv
+
+  # Level 3
+  - src/tc_soc_timer_Reg_IF.sv
+  - src/tc_soc_timer_timer.sv
+
+  # Level 4
+  - src/tc_soc_timer.sv
