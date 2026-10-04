@@ -1,0 +1,204 @@
+{
+  // =====================
+  // Basic Info (required)
+  // =====================
+  "basicInfo": {
+    // Licensing
+    "licensing": "Open-source (CERN-OHL-S-2.0)",
+
+    // Target FPGA / ASIC
+    "targetFpgaOrAsic": "FPGA",
+
+    // Design language
+    "designLanguage": "SystemVerilog"
+  },
+
+  // =====================
+  // System-Level Features (optional)
+  // =====================
+  "systemLevelFeatures": {
+    // Tight or Loose Coupling
+    "couplingType": "Loosely-coupled",
+
+    // Data Types
+    "dataTypes":null,
+
+    // ISA
+    "isa": "RISC-V + memory-mapped interrupts",
+
+    // Peak Ops/Cycle
+    "peakOpsPerCycle":null,
+
+    // Interfaces
+    "interfaces": "AHB Lite",
+
+    // Supported Operations
+    "supportedOperations":null,
+
+    // Compiler Support
+    "compilerSupport": "Standard Memory Instructions",
+
+    // External Memory Required
+    "externalMemoryRequired": "No",
+
+    // Cache / Scratchpad
+    "cacheOrScratchpad":null
+  },
+
+  // =====================
+  // Architecture
+  // =====================
+  "architecture": {
+    // Type (required)
+    "type":null,
+
+    // No. Clock Domains (in sync with system, not internally generated) (required)
+    "numClockDomains": 1,
+
+    // Control Inteface (optional)
+    "controlInterface": {
+      // ISA Extension
+      "isaExtension": "No",
+
+      // Memory Mapped
+      "memoryMapped": "Yes",
+
+      // Protocol
+      "protocol": "AHB Lite"
+    },
+
+    // Memory Interface (optional)
+    "memoryInterface": {
+      // Interface Protocol
+      "interfaceProtocol": "AHB Lite",
+
+      // Hierarchy Level
+      "hierarchyLevel": null,
+
+      // Cached?
+      "cached": "No",
+
+      // IOMMU?
+      "iommu": "No"
+    },
+
+    // Interrupts (optional)
+    "interrupts": "Triggers Timer/Counter Interrupt"
+  },
+
+  // =====================
+  // Microarchitecture (optional)
+  // =====================
+  "microarchitecture": {
+    "parametrization": {
+      // Parametric No. of Units?
+      "parametricNumUnits": "RTL from a parametrized generator",
+
+      // Parametric Config?
+      "parametricConfig": "No"
+    },
+
+    "programmability": {
+      // Programmable Cores?
+      "programmableCores": "No",
+
+      // ISA Extension
+      "isaExtension":null
+    }
+  },
+
+  // =====================
+  // Software (optional)
+  // =====================
+  "software": {
+    "compiler": {
+      // Requires specialized compiler?
+      "requiresSpecializedCompiler": "No",
+
+      // Supported compiler(s)
+      "supportedCompilers": null
+    },
+
+    "hardwareAbstractionLayer": {
+      // HAL functions
+      "halFunctions": "Register definition header"
+    },
+
+    "highLevelApi": {
+      // Is there a high-level API/SDK?
+      "hasHighLevelApi": "No",
+
+      // SDK repository
+      "sdkRepository": "No",
+
+      // Is there a domain specific compiler?
+      "hasDomainSpecificCompiler": "No"
+    }
+  },
+
+  // =====================
+  // Integration
+  // =====================
+  "integration": {
+    // ipDistribution.* (required)
+    "ipDistribution": {
+      // Manifest type
+      "manifestType": "Bender.yml",
+
+      // Standalone simulation?
+      "standaloneSimulation": "Formal Verification",
+
+      // If above, SW requirements?
+      "standaloneSimulationSwRequirements": "Formal Tools",
+
+      // Integration documented / examples?
+      "integrationDocsOrExamples": "Yes",
+
+      // SystemRDL
+      "systemRdl": "No"
+    },
+
+    // synthesis.* (required)
+    "synthesis": {
+      // Is IP syntesizable?
+      "isSynthesizable": "Yes",
+
+      // FPGA synthesis examples avail?
+      "fpgaSynthesisExamples": "No",
+
+      // ASIC synthesis examples avail?
+      "asicSynthesisExamples": "No"
+    },
+
+    // simulation.* (required)
+    "simulation": {
+      // Closed-source simulation?
+      "closedSourceSimulation": "No",
+
+      // Open-source simulation?
+      "openSourceSimulation": "No"
+    },
+
+    // Other integration elements (optional)
+    "evaluation": {
+      // PPA results available?
+      "ppaResultsAvailable": "No"
+    }
+  },
+
+  // =====================
+  // Physical Implementation (optional)
+  // =====================
+  "physicalImplementation": {
+    "asicArea": {
+      // Number of gates
+      "numGates":null,
+
+      // On-chip internal memory size
+      "onChipInternalMemorySize":null,
+
+      // Target clock frequency
+      "targetClockFrequency": null
+    }
+  }
+}

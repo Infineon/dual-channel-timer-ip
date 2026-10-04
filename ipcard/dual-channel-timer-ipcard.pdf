@@ -1,0 +1,231 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+3 0 obj
+<< /Length 4550 >>
+stream
+0.070 0.140 0.240 rg 42.00 481.00 758.00 72.00 re f
+1.000 1.000 1.000 rg BT /F2 20.00 Tf 1 0 0 1 58.00 522.00 Tm (Dual-Channel Timer - IP Card) Tj ET
+0.820 0.880 0.940 rg BT /F1 10.00 Tf 1 0 0 1 58.00 500.00 Tm (Structured design summary) Tj ET
+0.070 0.140 0.240 rg 42.00 443.00 758.00 22.00 re f
+1.000 1.000 1.000 rg BT /F2 8.50 Tf 1 0 0 1 50.00 450.00 Tm (Field) Tj ET
+1.000 1.000 1.000 rg BT /F2 8.50 Tf 1 0 0 1 255.00 450.00 Tm (Value) Tj ET
+0.070 0.140 0.240 rg 42.00 423.00 758.00 20.00 re f
+1.000 1.000 1.000 rg BT /F2 8.80 Tf 1 0 0 1 50.00 429.00 Tm (Basic Information) Tj ET
+0.910 0.950 0.980 rg 42.00 403.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 410.00 Tm (Licensing) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 410.00 Tm (Open-source \(CERN-OHL-S-2.0\)) Tj ET
+1.000 1.000 1.000 rg 42.00 383.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 390.00 Tm (Target FPGA or ASIC) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 390.00 Tm (FPGA) Tj ET
+0.910 0.950 0.980 rg 42.00 363.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 370.00 Tm (Design Language) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 370.00 Tm (SystemVerilog) Tj ET
+0.070 0.140 0.240 rg 42.00 343.00 758.00 20.00 re f
+1.000 1.000 1.000 rg BT /F2 8.80 Tf 1 0 0 1 50.00 349.00 Tm (System Level Features) Tj ET
+1.000 1.000 1.000 rg 42.00 323.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 330.00 Tm (Coupling Type) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 330.00 Tm (Loosely-coupled) Tj ET
+0.910 0.950 0.980 rg 42.00 303.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 310.00 Tm (Data Types) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 310.00 Tm (N/A) Tj ET
+1.000 1.000 1.000 rg 42.00 283.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 290.00 Tm (ISA) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 290.00 Tm (RISC-V + memory-mapped interrupts) Tj ET
+0.910 0.950 0.980 rg 42.00 263.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 270.00 Tm (Peak Ops Per Cycle) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 270.00 Tm (N/A) Tj ET
+1.000 1.000 1.000 rg 42.00 243.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 250.00 Tm (Interfaces) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 250.00 Tm (AHB Lite) Tj ET
+0.910 0.950 0.980 rg 42.00 223.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 230.00 Tm (Supported Operations) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 230.00 Tm (N/A) Tj ET
+1.000 1.000 1.000 rg 42.00 203.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 210.00 Tm (Compiler Support) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 210.00 Tm (Standard Memory Instructions) Tj ET
+0.910 0.950 0.980 rg 42.00 183.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 190.00 Tm (External Memory Required) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 190.00 Tm (No) Tj ET
+1.000 1.000 1.000 rg 42.00 163.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 170.00 Tm (Cache Or Scratchpad) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 170.00 Tm (N/A) Tj ET
+0.070 0.140 0.240 rg 42.00 143.00 758.00 20.00 re f
+1.000 1.000 1.000 rg BT /F2 8.80 Tf 1 0 0 1 50.00 149.00 Tm (Architecture) Tj ET
+0.910 0.950 0.980 rg 42.00 123.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 130.00 Tm (Type) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 130.00 Tm (N/A) Tj ET
+1.000 1.000 1.000 rg 42.00 103.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 110.00 Tm (Num Clock Domains) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 110.00 Tm (1) Tj ET
+0.910 0.950 0.980 rg 42.00 83.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 90.00 Tm (Control Interface > ISA Extension) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 90.00 Tm (No) Tj ET
+1.000 1.000 1.000 rg 42.00 63.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 70.00 Tm (Control Interface > Memory Mapped) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 70.00 Tm (Yes) Tj ET
+0.910 0.950 0.980 rg 42.00 43.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 50.00 Tm (Control Interface > Protocol) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 50.00 Tm (AHB Lite) Tj ET
+endstream
+endobj
+4 0 obj
+<< /Length 5284 >>
+stream
+0.070 0.140 0.240 rg 42.00 531.00 758.00 22.00 re f
+1.000 1.000 1.000 rg BT /F2 8.50 Tf 1 0 0 1 50.00 538.00 Tm (Field) Tj ET
+1.000 1.000 1.000 rg BT /F2 8.50 Tf 1 0 0 1 255.00 538.00 Tm (Value) Tj ET
+0.070 0.140 0.240 rg 42.00 511.00 758.00 20.00 re f
+1.000 1.000 1.000 rg BT /F2 8.80 Tf 1 0 0 1 50.00 517.00 Tm (Architecture) Tj ET
+1.000 1.000 1.000 rg 42.00 491.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 498.00 Tm (Memory Interface > Interface Protocol) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 498.00 Tm (AHB Lite) Tj ET
+0.910 0.950 0.980 rg 42.00 471.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 478.00 Tm (Memory Interface > Hierarchy Level) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 478.00 Tm (?) Tj ET
+1.000 1.000 1.000 rg 42.00 451.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 458.00 Tm (Memory Interface > Cached) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 458.00 Tm (No) Tj ET
+0.910 0.950 0.980 rg 42.00 431.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 438.00 Tm (Memory Interface > IOMMU) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 438.00 Tm (No) Tj ET
+1.000 1.000 1.000 rg 42.00 411.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 418.00 Tm (Interrupts) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 418.00 Tm (Triggers Timer/Counter Interrupt) Tj ET
+0.070 0.140 0.240 rg 42.00 391.00 758.00 20.00 re f
+1.000 1.000 1.000 rg BT /F2 8.80 Tf 1 0 0 1 50.00 397.00 Tm (Microarchitecture) Tj ET
+0.910 0.950 0.980 rg 42.00 371.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 378.00 Tm (Parametrization > Parametric Num Units) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 378.00 Tm (Generated by parametrized Generator) Tj ET
+1.000 1.000 1.000 rg 42.00 351.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 358.00 Tm (Parametrization > Parametric Config) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 358.00 Tm (No) Tj ET
+0.910 0.950 0.980 rg 42.00 331.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 338.00 Tm (Programmability > Programmable Cores) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 338.00 Tm (No) Tj ET
+1.000 1.000 1.000 rg 42.00 311.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 318.00 Tm (Programmability > ISA Extension) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 318.00 Tm (N/A) Tj ET
+0.070 0.140 0.240 rg 42.00 291.00 758.00 20.00 re f
+1.000 1.000 1.000 rg BT /F2 8.80 Tf 1 0 0 1 50.00 297.00 Tm (Software) Tj ET
+0.910 0.950 0.980 rg 42.00 263.00 758.00 28.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 278.00 Tm (Compiler > Requires Specialized) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 268.00 Tm (Compiler) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 278.00 Tm (No) Tj ET
+1.000 1.000 1.000 rg 42.00 243.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 250.00 Tm (Compiler > Supported Compilers) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 250.00 Tm (?) Tj ET
+0.910 0.950 0.980 rg 42.00 215.00 758.00 28.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 230.00 Tm (Hardware Abstraction Layer > Hal) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 220.00 Tm (Functions) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 230.00 Tm (Register definition header) Tj ET
+1.000 1.000 1.000 rg 42.00 195.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 202.00 Tm (High Level API > Has High Level API) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 202.00 Tm (No) Tj ET
+0.910 0.950 0.980 rg 42.00 175.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 182.00 Tm (High Level API > Sdk Repository) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 182.00 Tm (No) Tj ET
+1.000 1.000 1.000 rg 42.00 147.00 758.00 28.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 162.00 Tm (High Level API > Has Domain Specific) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 152.00 Tm (Compiler) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 162.00 Tm (No) Tj ET
+0.070 0.140 0.240 rg 42.00 127.00 758.00 20.00 re f
+1.000 1.000 1.000 rg BT /F2 8.80 Tf 1 0 0 1 50.00 133.00 Tm (Integration) Tj ET
+0.910 0.950 0.980 rg 42.00 107.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 114.00 Tm (Ip Distribution > Manifest Type) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 114.00 Tm (Bender.yml) Tj ET
+1.000 1.000 1.000 rg 42.00 79.00 758.00 28.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 94.00 Tm (Ip Distribution > Standalone) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 84.00 Tm (Simulation) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 94.00 Tm (Formal Verification) Tj ET
+0.910 0.950 0.980 rg 42.00 51.00 758.00 28.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 66.00 Tm (Ip Distribution > Standalone) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 56.00 Tm (Simulation Sw Requirements) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 66.00 Tm (Formal Tools) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Length 3116 >>
+stream
+0.070 0.140 0.240 rg 42.00 531.00 758.00 22.00 re f
+1.000 1.000 1.000 rg BT /F2 8.50 Tf 1 0 0 1 50.00 538.00 Tm (Field) Tj ET
+1.000 1.000 1.000 rg BT /F2 8.50 Tf 1 0 0 1 255.00 538.00 Tm (Value) Tj ET
+0.070 0.140 0.240 rg 42.00 511.00 758.00 20.00 re f
+1.000 1.000 1.000 rg BT /F2 8.80 Tf 1 0 0 1 50.00 517.00 Tm (Integration) Tj ET
+1.000 1.000 1.000 rg 42.00 483.00 758.00 28.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 498.00 Tm (Ip Distribution > Integration Docs Or) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 488.00 Tm (Examples) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 498.00 Tm (Yes) Tj ET
+0.910 0.950 0.980 rg 42.00 463.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 470.00 Tm (Ip Distribution > System RDL) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 470.00 Tm (No) Tj ET
+1.000 1.000 1.000 rg 42.00 443.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 450.00 Tm (Synthesis > Is Synthesizable) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 450.00 Tm (Yes) Tj ET
+0.910 0.950 0.980 rg 42.00 423.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 430.00 Tm (Synthesis > FPGA Synthesis Examples) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 430.00 Tm (No) Tj ET
+1.000 1.000 1.000 rg 42.00 403.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 410.00 Tm (Synthesis > ASIC Synthesis Examples) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 410.00 Tm (No) Tj ET
+0.910 0.950 0.980 rg 42.00 383.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 390.00 Tm (Simulation > Closed Source Simulation) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 390.00 Tm (No) Tj ET
+1.000 1.000 1.000 rg 42.00 363.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 370.00 Tm (Simulation > Open Source Simulation) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 370.00 Tm (No) Tj ET
+0.910 0.950 0.980 rg 42.00 343.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 350.00 Tm (Evaluation > Ppa Results Available) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 350.00 Tm (No) Tj ET
+0.070 0.140 0.240 rg 42.00 323.00 758.00 20.00 re f
+1.000 1.000 1.000 rg BT /F2 8.80 Tf 1 0 0 1 50.00 329.00 Tm (Physical Implementation) Tj ET
+1.000 1.000 1.000 rg 42.00 303.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 310.00 Tm (ASIC Area > Num Gates) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 310.00 Tm (N/A) Tj ET
+0.910 0.950 0.980 rg 42.00 275.00 758.00 28.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 290.00 Tm (ASIC Area > On Chip Internal Memory) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 280.00 Tm (Size) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 290.00 Tm (N/A) Tj ET
+1.000 1.000 1.000 rg 42.00 255.00 758.00 20.00 re f
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 50.00 262.00 Tm (ASIC Area > Target Clock Frequency) Tj ET
+0.080 0.100 0.130 rg BT /F1 8.10 Tf 1 0 0 1 255.00 262.00 Tm (N/A\)) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 842 595] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 3 0 R >>
+endobj
+7 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 842 595] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 4 0 R >>
+endobj
+8 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 842 595] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 5 0 R >>
+endobj
+9 0 obj
+<< /Type /Pages /Kids [6 0 R 7 0 R 8 0 R] /Count 3 >>
+endobj
+10 0 obj
+<< /Type /Catalog /Pages 9 0 R >>
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000015 00000 n 
+0000000085 00000 n 
+0000000160 00000 n 
+0000004761 00000 n 
+0000010096 00000 n 
+0000013263 00000 n 
+0000013399 00000 n 
+0000013535 00000 n 
+0000013671 00000 n 
+0000013740 00000 n 
+trailer
+<< /Size 11 /Root 10 0 R >>
+startxref
+13790
+%%EOF
