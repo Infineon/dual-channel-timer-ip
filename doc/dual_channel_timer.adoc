@@ -10,9 +10,20 @@ clock or from an external count input, reload its maximum value when the
 counter reaches zero, capture its current value on an external event, and
 generate compare outputs for downstream logic.
 
+The first channel consists of a single capture/compare unit (CCU0). The second channel provides six capture/compare units (CCU0 through CCU5).
+
 The timer is accessed through an AHB-Lite register interface. Its external
 signals are synchronous to the timer clock after input synchronization, and
 the asynchronous active-low reset initializes the timer state.
+
+The timer can be used for the following purposes (but not only):
+
+* Watchdog Timer 
+* PWM signal generation.
+* Time stamping of events.
+* Event counting from external sources.
+* Time interval measurement for OS scheduling
+
 
 == Features
 
@@ -36,7 +47,7 @@ with a programmed value using six comparison relations.
 automatic or external reset occurs. The interrupt remains asserted until
 cleared through the overflow interrupt reset input.
 
-** *Flexible CCU count:* channel 0 provides one capture/compare unit, while
+** *Flexible CCU output:* channel 0 provides one capture/compare unit, while
 channel 1 provides six units.
 
 == Architecture
